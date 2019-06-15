@@ -2,7 +2,7 @@ package com.interview.javabasic.algorithm;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        //123
+        //123456
         int[] arrays = new int[]{1,2,3,4,6,6,7,7,8,9,10};
         int target = 7;
         System.out.println(search(arrays, target, 0, arrays.length));
